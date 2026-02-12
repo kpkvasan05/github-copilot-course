@@ -90,7 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
           });
         }, 0);
       });
-      });
     } catch (error) {
       activitiesList.innerHTML = "<p>Failed to load activities. Please try again later.</p>";
       console.error("Error fetching activities:", error);
